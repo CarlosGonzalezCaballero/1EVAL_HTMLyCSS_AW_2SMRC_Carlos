@@ -10,11 +10,33 @@
             background-color: aquamarine;
             
         }
-        
-
-        ul {
+        ol.ordenada {
+            list-style-type: upper-roman;
+        }
+        li.carlos {
             list-style-image: url("imagenes/cara.jpeg");
         }
+        li.guille {
+            list-style-image: url("imagenes/pera.png");
+        }
+        li.florea {
+            list-style-image: url("imagenes/rumano.jpeg");
+        }
+        li.pelaez {
+            list-style-image: url("imagenes/perrobox.jpeg");
+        }
+        li.jorge {
+            list-style-image: url("imagenes/esquizo.jpeg");
+        }
+        @font-face {
+            font-family: "Mystery Quest";
+            src: url("imagenes/mystery-quest.woff");
+        } 
+        h1 {
+            font-family: "Mystery Quest";
+            font-size: 150%;
+        }
+        
     </style>
 </head>
 
@@ -22,11 +44,19 @@
     <h1>Ejercicio de listas</h1>
     <h2>Lista no ordenada</h2>
     <ul>
+        
+        <li class="carlos">Carlos</li>
+        <li class="florea">Alejandro Florea</li>
+        <li class="pelaez">Alejandro Pelaez</li>
+        <li class="jorge">Jorge</li>
+        <li class="guille">Guille</li>
+    </ul>
+    <h1>Lista ordenada</h1>
+    <ol  class="ordenada">
         <li>CSS</li>
         <li>HTML</li>
         <li>Javascript</li>
-    </ul>
-    
+    </ol>
 </body>
 
 </html>
